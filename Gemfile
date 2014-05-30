@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 
-gem 'bootstrap-sass', '~> 3.1.0.2'
+gem 'bootstrap-sass', '~> 2.3'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
@@ -31,6 +31,8 @@ gem 'jquery-rails'
 
 group :test do
 	gem 'capybara', '1.1.2'
+
+	gem 'factory_girl_rails'
 end
 
 group :production do
