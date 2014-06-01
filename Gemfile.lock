@@ -163,6 +163,7 @@ DEPENDENCIES
   pg
   protected_attributes
   rails (= 4.1.1)
+  railties
   rspec-rails
   sass-rails
   sqlite3
